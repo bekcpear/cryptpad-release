@@ -25,7 +25,7 @@ proxychains -q ../node_modules/bower/bin/bower install -p
 popd
 
 
-pushd $(realpath $0)
+pushd $(dirname `realpath $0`)
 git checkout main
 rm -rf node_modules www
 cp -a ${_L}/{node_modules,www/bower_components} ./

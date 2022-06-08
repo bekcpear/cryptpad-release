@@ -1,3 +1,23 @@
+## 5.65.5 (2022-05-30)
+
+### Bug fixes
+
+Work around a bug in Chrome 102 that caused wheel scrolling of the editor to constantly stop.
+
+[search addon](https://codemirror.net/demo/search.html): Make sure the search field has an accessible label.
+
+[comment addon](https://codemirror.net/doc/manual.html#addon_comment): Preserve indentation on otherwise empty lines when indenting.
+
+## 5.65.4 (2022-05-20)
+
+### Bug fixes
+
+Ignore paste events when the editor doesn't have focus.
+
+[sparql mode](https://codemirror.net/mode/sparql/index.html): Fix parsing of variables after operators.
+
+[julia mode](https://codemirror.net/mode/julia/): Properly tokenize `!==` and `===` operators.
+
 ## 5.65.3 (2022-04-20)
 
 ### Bug fixes
